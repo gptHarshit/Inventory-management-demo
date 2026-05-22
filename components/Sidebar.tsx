@@ -68,13 +68,13 @@ export default function Sidebar({
                         Orders
                     </Link>
 
-                    <Link
-                        href="/dashboard/ordereddetails"
-                        onClick={() => setIsSideBarOpen(false)}
-                        className="hover:bg-gray-800 p-2 rounded"
-                    >
-                        Order Details
-                    </Link>
+                    {/*<Link*/}
+                    {/*    href="/dashboard/ordereddetails"*/}
+                    {/*    onClick={() => setIsSideBarOpen(false)}*/}
+                    {/*    className="hover:bg-gray-800 p-2 rounded"*/}
+                    {/*>*/}
+                    {/*    Order Details*/}
+                    {/*</Link>*/}
 
                     <Link
                         href="/dashboard/managers"
